@@ -1,0 +1,71 @@
+body{
+    background-color: lightskyblue;
+}
+h1{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(19, 101, 152);
+    border-radius: 10px;
+}
+
+
+#especifico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(5, 40, 62);
+    color: white;
+    border-radius: 10px;
+}
+#pai{
+    width: 100%;
+    height: 80vh;
+    border: solid 2px black;
+    display: flex;
+    /* organizar eixo horizontal */
+    justify-content: space-evenly;
+    /* eixo vertical */
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.filho{
+    border: solid 2px rgb(6, 6, 104);
+    width: 20%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* espaço entre itens */
+    gap: 5px;
+    background-color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+.filho img{
+    width: 50%;
+
+}
+a{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(77, 123, 229);
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
